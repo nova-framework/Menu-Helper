@@ -1,4 +1,4 @@
-# Menu Helper for SMVC
+# Menu Helper for Nova Framework
 
 Creates a menu from an object of keys.
 A typical table would be setup like this:
