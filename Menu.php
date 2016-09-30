@@ -1,5 +1,5 @@
 <?php
-namespace Helpers;
+namespace App\Helpers;
 
 /**
  * creates a menu from a object
