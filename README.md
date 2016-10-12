@@ -24,7 +24,7 @@ Add Menu.php to app/Helpers
 
 Create an Alias
 ````
-use Helpers\Menu;
+use App\Helpers\Menu;
 ````
 
 Page in the params:
