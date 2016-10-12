@@ -28,7 +28,7 @@ class Menu
             if ($row->$parent == $depth) {
                 // Add an UL tag when LI exists
                 $newList == null ? $newList = "<ul>\n" : $newList;
-                $newList .= "<li><a href='".DIR.$row->$slug."'>".$row->$title."</a>";
+                $newList .= "<li><a href='$row->$slug'>".$row->$title."</a>";
                 // Find childrens
                 $newList .= self::getList(array_slice($rows, $key), $id, $title, $slug, $parent, $row->$id);
                 $newList .= "</li>\n";
